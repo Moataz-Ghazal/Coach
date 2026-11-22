@@ -1,0 +1,34 @@
+COACH NOTEBOOK - INSTALL ON IPHONE
+==================================
+
+1. Put the files on free HTTPS hosting (GitHub Pages)
+   - Create a free account at github.com and a new PUBLIC repository (e.g. "coach").
+   - Click "Add file" > "Upload files" and drag in ALL files from this folder
+     (index.html, manifest.webmanifest, sw.js, icon-180.png, icon-192.png, icon-512.png).
+   - Repository Settings > Pages > Source: "Deploy from a branch", Branch: main, folder: / (root) > Save.
+   - After about a minute the page is live at https://YOURNAME.github.io/coach/
+
+   Note: the repository is public, so the player names inside index.html are readable by
+   anyone who knows the address. If that matters, use a private-friendly host
+   (Cloudflare Pages or Netlify with a site password) instead.
+
+2. Install on the iPhone
+   - Open the link in SAFARI (not Chrome).
+   - Tap Share > "Add to Home Screen" > Add.
+   - Always open the app from that Home Screen icon.
+
+3. Move your existing entries from the Claude artifact
+   - In the old Coach Notebook (claude.ai), tap Backup (bottom of the page) and save the file.
+   - In the new app, tap Restore and choose that file.
+
+4. How your data is kept safe
+   - Every change is saved immediately inside the app, mirrored in a second store,
+     and a daily auto-backup is kept for the last 30 days (dropdown "Auto-backups" at the bottom).
+   - After 7 days without a backup, the app shows a banner: tap "Back up now", then Save to Files
+     (iCloud Drive). "Later" hides it until tomorrow.
+   - You can also tap Backup any time. That file survives losing or
+     resetting the phone.
+   - Data belongs to the web address. If you ever change the address, make a Backup first
+     and Restore it at the new address.
+   - Do not use "Clear History and Website Data" in Safari settings, and do not delete the app
+     icon without making a Backup first.
